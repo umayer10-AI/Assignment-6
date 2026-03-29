@@ -1,9 +1,10 @@
 import React from 'react';
+import A1 from './A1';
 
 const App = () => {
   return (
     <div>
-      Hello
+      <A1></A1>
     </div>
   );
 };

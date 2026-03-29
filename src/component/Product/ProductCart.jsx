@@ -9,7 +9,7 @@ const ProductCart = ({p,h}) => {
 
     return (
         <div>
-            <div className='border border-gray-300 p-4 rounded-2xl h-full shadow-xl'>
+            <div className='border border-gray-300 p-4 rounded-2xl h-full shadow-xl hover:scale-105 transition duration-500'>
                 <div className='text-right'>
                     <span className="badge badge-sm badge-warning font-semibold">{p.badge}</span>
                 </div>

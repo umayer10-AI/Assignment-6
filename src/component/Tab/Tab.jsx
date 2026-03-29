@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
 
-const Tab = () => {
+const Tab = ({info,setI}) => {
 
     const [show, setS] = useState('product')
-    const [info, setI] = useState([])
 
     const h = (e) => {
         const exist = info.find(v => v.id === e.id)
@@ -21,7 +20,7 @@ const Tab = () => {
     }
 
     return (
-        <div>
+        <div className='mb-20'>
             <div className='flex justify-center mb-10'>
                 <div className='flex gap-2'>
                     <button onClick={() => setS("product")} className={`btn rounded-full px-10 ${show === 'product' ? 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white' : 'font-bold btn-outline btn-primary'}`}>Products</button>

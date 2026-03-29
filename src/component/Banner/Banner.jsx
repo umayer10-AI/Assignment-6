@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div className='max-w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center py-15 gap-10 lg:gap-0'>
             <div className='space-y-6 order-2 lg:order-1'>
-                <div className='flex items-center gap-2 bg-violet-200 w-fit text-xs px-2 py-1 rounded-3xl'>
+                <div className='flex items-center gap-2 bg-violet-200 w-fit text-xs px-3 py-2 rounded-3xl'>
                     <span className='text-violet-600'><FaRegCircleDot /></span>
                     <h2 className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-semibold'> New: AI-Powered Tools Available</h2>
                 </div>
@@ -21,7 +21,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='flex justify-center lg:justify-end items-center order-1 lg:order-2'>
-                <img className='h-70 lg:h-100 object-cover' src={img} alt="" />
+                <img className='h-70 lg:h-100 object-cover shadow-xl hover:scale-110 transition duration-500' src={img} alt="" />
             </div>
         </div>
     );

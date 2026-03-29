@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "plan_name": "Free Starter",
+    "price": 100,
+    "duration": "/Mo",
+    "badge": "Beginner",
+    "description": "Perfect for individuals exploring AI content generation.",
+    "feature_1": "5,000 AI words per month",
+    "feature_2": "10+ writing templates",
+    "feature_3": "Basic grammar checker"
+  },
+  {
+    "id": 2,
+    "plan_name": "AI Writing Pro",
+    "price": 29,
+    "duration": "/Mo",
+    "badge": "Best Seller",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds.",
+    "feature_1": "Unlimited AI generations",
+    "feature_2": "50+ writing templates",
+    "feature_3": "Advanced grammar checker"
+  },
+  {
+    "id": 3,
+    "plan_name": "Content Agency",
+    "price": 79,
+    "duration": "/Mo",
+    "badge": "Popular",
+    "description": "Ideal for small teams and busy content agencies.",
+    "feature_1": "Up to 5 team members",
+    "feature_2": "SEO optimization tools",
+    "feature_3": "Plagiarism checker"
+  },
+  {
+    "id": 4,
+    "plan_name": "SEO Specialist",
+    "price": 49,
+    "duration": "/Mo",
+    "badge": "New",
+    "description": "Tailored for bloggers who prioritize search engine rankings.",
+    "feature_1": "Unlimited AI generations",
+    "feature_2": "Keyword research tool",
+    "feature_3": "SERP analyzer integration"
+  },
+  {
+    "id": 5,
+    "plan_name": "Enterprise",
+    "price": 199,
+    "duration": "/Mo",
+    "badge": "Corporate",
+    "description": "Custom solutions for large scale content production.",
+    "feature_1": "Dedicated account manager",
+    "feature_2": "Custom AI model training",
+    "feature_3": "API Access"
+  },
+  {
+    "id": 6,
+    "plan_name": "Social Media Pro",
+    "price": 19,
+    "duration": "/Mo",
+    "badge": "Social",
+    "description": "Focused on viral captions and social media post ideas.",
+    "feature_1": "Infinite caption ideas",
+    "feature_2": "Hashtag generator",
+    "feature_3": "Emoji suggestions"
+  },
+  {
+    "id": 7,
+    "plan_name": "Academic Assistant",
+    "price": 15,
+    "duration": "/Mo",
+    "badge": "Student",
+    "description": "Helps students organize research and structure essays.",
+    "feature_1": "Citation generator",
+    "feature_2": "Essay outliner",
+    "feature_3": "Tone adjustment tool"
+  },
+  {
+    "id": 8,
+    "plan_name": "Lifetime Deal",
+    "price": 499,
+    "duration": "/Once",
+    "badge": "Limited Time",
+    "description": "Pay once and enjoy AI writing benefits forever.",
+    "feature_1": "All future updates",
+    "feature_2": "Priority support",
+    "feature_3": "Cloud storage for drafts"
+  }
+]

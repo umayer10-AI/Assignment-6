@@ -1,0 +1,44 @@
+import React from 'react';
+import CartSection from './CartSection';
+import { BsCart2 } from "react-icons/bs";
+
+const Cart = ({info,g,total,setI}) => {
+    return (
+        <div className='max-w-[70%] mx-auto mb-20 border border-gray-300 shadow-xl rounded-2xl p-6'>
+            <div className='mb-5'>
+                <h2 className='text-3xl font-bold'>Your Cart</h2>
+            </div>
+            <div className='flex flex-col gap-3'>
+                {
+                    info.map(v => <CartSection key={v.id} p={v} g={g}></CartSection>)
+                }
+            </div>
+
+            {
+                info.length !== 0 && (
+                    <div>
+                        <div className='text-2xl font-bold flex justify-between items-center mt-10 mb-5'>
+                            <h2>Total</h2>
+                            <h2>$<span>{total}</span></h2>
+                        </div>
+                        <div>
+                            <button onClick={() => setI([])} className='btn bg-gradient-to-r from-[#4F39F6] py-7 to-[#9514FA] text-white rounded-2xl w-full text-xl'>Proceed to Checkout</button>
+                        </div>
+                    </div>
+                )
+            }
+
+            {
+                info.length === 0 && (
+                    <div className='font-bold py-15 bg-blue-100 rounded-2xl'>
+                        <h2 className='flex justify-center text-6xl mb-4 text-gray-500'><BsCart2 /></h2>
+                        <h2 className='text-center text-2xl text-gray-500'>Your Cart is empty</h2>
+                    </div>
+                )
+            }
+            
+        </div>
+    );
+};
+
+export default Cart;

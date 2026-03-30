@@ -10,7 +10,7 @@ const ProductCart = ({p,h}) => {
         <div>
             <div className='border border-gray-300 p-4 rounded-2xl h-full shadow-xl hover:scale-105 transition duration-500'>
                 <div className='text-right'>
-                    <span className="badge badge-sm badge-warning font-semibold">{p.badge}</span>
+                    <span className={`badge ${p.badge === 'Popular' && "text-green-600 bg-green-200 border border-green-500" || p.badge === 'New' && "text-yellow-600 bg-yellow-200 border border-yellow-600" || p.badge === 'Best Seller' && "text-red-600 bg-red-200 border border-red-500"} font-semibold`}>{p.badge}</span>
                 </div>
                 <button className='px-2 py-3 border border-gray-300 rounded-full text-4xl mb-3'>{p.icon}</button>
                 <h2 className='text-2xl font-bold mb-2'>{p.plan_name}</h2>

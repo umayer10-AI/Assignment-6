@@ -7,6 +7,7 @@ import Tab from './component/Tab/Tab';
 import MidContainer from './component/Tab/Mid/MidContainer';
 import Midlast from './component/MidLast/Midlast';
 import FooterFirst from './component/Footer/FooterFirst';
+import FooterLast from './component/Footer/FooterLast';
 
 const A1 = () => {
 
@@ -23,6 +24,7 @@ const A1 = () => {
             <MidContainer></MidContainer>
             <Midlast></Midlast>
             <FooterFirst></FooterFirst>
+            <FooterLast></FooterLast>
         </div>
     );
 };

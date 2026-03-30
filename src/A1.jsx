@@ -5,6 +5,8 @@ import RatingBanner from './component/Banner/RatingBanner';
 import Banner3 from './component/Banner/Banner3';
 import Tab from './component/Tab/Tab';
 import MidContainer from './component/Tab/Mid/MidContainer';
+import Midlast from './component/MidLast/Midlast';
+import FooterFirst from './component/Footer/FooterFirst';
 
 const A1 = () => {
 
@@ -19,6 +21,8 @@ const A1 = () => {
             <Banner3></Banner3>
             <Tab info={info} setI={setI}></Tab>
             <MidContainer></MidContainer>
+            <Midlast></Midlast>
+            <FooterFirst></FooterFirst>
         </div>
     );
 };

@@ -8,7 +8,7 @@ const Cart = ({info,g,total,setI}) => {
             <div className='mb-5'>
                 <h2 className='text-3xl font-bold'>Your Cart</h2>
             </div>
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col gap-4'>
                 {
                     info.map(v => <CartSection key={v.id} p={v} g={g}></CartSection>)
                 }

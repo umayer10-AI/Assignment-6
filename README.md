@@ -1,16 +1,34 @@
-# React + Vite
+## Project name:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DigiTools is a modern React-based web application where users can explore, select, and manage premium digital tools such as AI tools, templates, and productivity software. The project focuses on clean UI, responsive design, and smooth user experience.
 
-## React Compiler
+## Technologies Used
+1. React.js
+2. Tailwind CSS
+3. DaisyUI
+4. React Toastify
+5. Axios
+6. React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+1. Add to Cart System
 
-## Expanding the ESLint configuration
+Users can easily add products to the cart, and duplicate items are prevented with a smart notification system.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Dynamic Product Loading
+
+Products are dynamically fetched from a JSON file using Axios.
+
+3. Smart Notifications
+
+React Toastify is used to display success and error messages (e.g., item added or already exists).
+
+## UI Highlights
+
+Beautiful gradient-based UI
+Fully responsive (Mobile + Desktop)
+Smooth hover effects and interactions

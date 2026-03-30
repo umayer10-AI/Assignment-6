@@ -21,7 +21,11 @@ const Product = ({h,info}) => {
         a();
     },[])
 
-    if(loading) return <span className="loading loading-infinity loading-lg my-10"></span>
+    if(loading) return (
+        <div className='flex justify-center items-center'>
+            <span className="loading loading-infinity loading-lg text-8xl my-10 font-bold"></span>
+        </div>
+    )
 
     return (
         <div className='max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>

@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { toast, Bounce } from 'react-toastify';
 
 const ProductCart = ({p,h,info}) => {
 
+    const [bool, setBool] = useState(false)
+
     const a = () => {
         h(p)
+        setBool(true)
         const exist = info.find(v => v.id === p.id)
         if(exist){
             toast.error('Item already added to cart!', {
@@ -59,7 +62,7 @@ const ProductCart = ({p,h,info}) => {
                         <span>{p.feature_3}</span>
                     </li>
                 </ul>
-                <button onClick={a} className='btn bg-gradient-to-r from-[#4F39F6] py-6 to-[#9514FA] text-white rounded-full w-full'>Buy Now</button>
+                <button onClick={a} className={`btn text-white rounded-full w-full ${bool ? 'bg-green-600' : 'bg-gradient-to-r from-[#4F39F6] py-6 to-[#9514FA] '}`}>{bool ? "Added to Cart" : "Buy Now"}</button>
             </div>
         </div>
     );

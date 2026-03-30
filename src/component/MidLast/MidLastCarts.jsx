@@ -29,7 +29,7 @@ const MidLastCarts = () => {
                 </ul>
                 <button className='btn bg-gradient-to-r from-[#4F39F6] py-6 mt-12 to-[#9514FA] text-white rounded-full w-full font-semibold text-base'>Get Started Free</button>
             </div>
-            <div className='bg-base-200 border  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white p-5 rounded-2xl space-y-4 shadow-xl transition-all duration-500 hover:-translate-y-4'>
+            <div className='bg-base-200 border relative bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white p-5 rounded-2xl space-y-4 shadow-xl transition-all duration-500 hover:-translate-y-4'>
                 <div>
                     <h2 className='text-2xl font-semibold mb-2'>Starter</h2>
                     <p>Perfect for getting started</p>
@@ -64,6 +64,8 @@ const MidLastCarts = () => {
                 <div className='bg-white overflow-hidden rounded-full'>
                     <button className='btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent rounded-full w-full font-bold text-base py-6'>Get Started Free</button>
                 </div>
+
+                <span className='text-yellow-700 absolute -top-3 left-27 bg-yellow-200 border border-yellow-600 rounded-full text-sm px-2.5 py-0.5'>Most Popular</span>
             </div>
             <div className='bg-base-200 border border-gray-300 p-5 rounded-2xl space-y-4 shadow-xl transition-all duration-500 hover:-translate-y-4'>
                 <div>

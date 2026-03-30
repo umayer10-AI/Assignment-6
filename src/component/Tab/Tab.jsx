@@ -29,7 +29,7 @@ const Tab = ({info,setI}) => {
             </div>
 
             {
-                show === "product" && <Product h={h}></Product>
+                show === "product" && <Product h={h} info={info}></Product>
             }
 
             {

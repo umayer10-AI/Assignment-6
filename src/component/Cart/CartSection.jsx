@@ -1,9 +1,21 @@
 import React from 'react';
+import { toast, Bounce } from 'react-toastify';
 
 const CartSection = ({p,g}) => {
 
     const a = () => {
         g(p)
+        toast.success('Remove Cart!', {
+            position: "top-right",
+            autoClose: 500,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            transition: Bounce,
+        });
     }
 
     return (

@@ -1,9 +1,37 @@
 import React from 'react';
+import { toast, Bounce } from 'react-toastify';
 
-const ProductCart = ({p,h}) => {
+const ProductCart = ({p,h,info}) => {
 
     const a = () => {
         h(p)
+        const exist = info.find(v => v.id === p.id)
+        if(exist){
+            toast.error('Item already added to cart!', {
+                position: "top-right",
+                autoClose: 500,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                transition: Bounce,
+            });
+        }
+        else{
+            toast.success(`Item add to cart $${p.price}`, {
+                position: "top-right",
+                autoClose: 500,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                transition: Bounce,
+            });
+        }
     }
 
     return (

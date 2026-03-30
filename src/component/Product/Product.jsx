@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios"
 import ProductCart from './ProductCart';
 
-const Product = ({h}) => {
+const Product = ({h,info}) => {
 
     const [card, setC] = useState([])
     const [loading, setL] = useState(true)
@@ -26,7 +26,7 @@ const Product = ({h}) => {
     return (
         <div className='max-w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7'>
             {
-                card.map(v => <ProductCart key={v.id} p={v} h={h}></ProductCart>)
+                card.map(v => <ProductCart key={v.id} p={v} h={h} info={info}></ProductCart>)
             }
         </div>
     );

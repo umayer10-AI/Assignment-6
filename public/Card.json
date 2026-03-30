@@ -2,6 +2,7 @@
   {
     "id": 1,
     "plan_name": "Free Starter",
+    "icon": "🌱",
     "price": 100,
     "duration": "/Mo",
     "badge": "Beginner",
@@ -13,6 +14,7 @@
   {
     "id": 2,
     "plan_name": "AI Writing Pro",
+    "icon": "🤖",
     "price": 29,
     "duration": "/Mo",
     "badge": "Best Seller",
@@ -24,6 +26,7 @@
   {
     "id": 3,
     "plan_name": "Content Agency",
+    "icon": "🏢",
     "price": 79,
     "duration": "/Mo",
     "badge": "Popular",
@@ -35,6 +38,7 @@
   {
     "id": 4,
     "plan_name": "SEO Specialist",
+    "icon": "🔍",
     "price": 49,
     "duration": "/Mo",
     "badge": "New",
@@ -46,6 +50,7 @@
   {
     "id": 5,
     "plan_name": "Enterprise",
+    "icon": "🏆",
     "price": 199,
     "duration": "/Mo",
     "badge": "Corporate",
@@ -57,6 +62,7 @@
   {
     "id": 6,
     "plan_name": "Social Media Pro",
+    "icon": "📱",
     "price": 19,
     "duration": "/Mo",
     "badge": "Social",
@@ -68,6 +74,7 @@
   {
     "id": 7,
     "plan_name": "Academic Assistant",
+    "icon": "🎓",
     "price": 15,
     "duration": "/Mo",
     "badge": "Student",
@@ -79,6 +86,7 @@
   {
     "id": 8,
     "plan_name": "Lifetime Deal",
+    "icon": "💎",
     "price": 499,
     "duration": "/Once",
     "badge": "Limited Time",

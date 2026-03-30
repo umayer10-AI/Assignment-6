@@ -22,7 +22,7 @@ const Cart = ({info,g,total,setI}) => {
                             <h2>$<span>{total}</span></h2>
                         </div>
                         <div>
-                            <button onClick={() => setI([])} className='btn bg-gradient-to-r from-[#4F39F6] py-7 to-[#9514FA] text-white rounded-2xl w-full text-xl'>Proceed to Checkout</button>
+                            <button onClick={() => setI([])} className='btn bg-gradient-to-r from-[#4F39F6] py-7 to-[#9514FA] text-white rounded-2xl w-full text-lg lg:text-xl'>Proceed to Checkout</button>
                         </div>
                     </div>
                 )
